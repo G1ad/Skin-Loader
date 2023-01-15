@@ -25,5 +25,7 @@ public class ChampionWallpaper extends Application {
 
     public static void main(String[] args) {
          launch();
+
+
     }
 }
