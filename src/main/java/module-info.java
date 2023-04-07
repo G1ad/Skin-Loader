@@ -6,6 +6,7 @@ module skins.skins {
     requires com.fasterxml.jackson.core;
     requires com.fasterxml.jackson.annotation;
 
+
     opens skins.skins to javafx.fxml;
     exports skins.skins;
 }

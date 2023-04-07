@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.Hyperlink?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="skins.skins.ChampionWallpaperController">
-    <ComboBox fx:id="championComboBox" />
-    <ComboBox fx:id="skinComboBox" />
-    <Hyperlink fx:id="linkHyperlink" wrapText="true"/>
+<VBox alignment="CENTER" spacing="20.0" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skins.skins.ChampionWallpaperController">
+    <ComboBox fx:id="championComboBox" id="combo_champ" promptText="Champion"  stylesheets="@stylesheet.css"/>
+    <ComboBox fx:id="skinComboBox" promptText="Select Champion" disable="true"/>
+    <Button fx:id="downloadButton" mnemonicParsing="false" text="Download" disable="true" onAction="#handleDownloadButtonClick"/>
+    <Hyperlink fx:id="linkHyperlink" disable="true" text="Skin link" wrapText="true" />
 </VBox>

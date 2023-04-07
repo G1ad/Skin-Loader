@@ -1,0 +1,76 @@
+
+.background-image {
+    -fx-background-image: url("D:\Download app fx\Little Knight Amumu.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.combo-box {
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 3, 2, 1;
+    -fx-background-color: linear-gradient(#6a85b6 0%, #bac8dc 20%, #6a85b6 100%),
+    -fx-text-box-border,
+    -fx-control-inner-background;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: #616ff2;
+}
+
+.combo-box {
+    -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1);
+}
+
+.combo-box {
+     -fx-background-radius: 20;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #616ff2;
+}
+
+.combo-box {
+    -fx-font-size: 14px;
+    -fx-font-family: 'Segoe UI';
+}
+
+.button {
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 3, 2, 1;
+    -fx-background-color: linear-gradient(#6a85b6 0%, #bac8dc 20%, #6a85b6 100%);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Segoe UI';
+    -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1);
+}
+
+.hyperlink {
+    -fx-text-fill: #616ff2;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Segoe UI';
+    -fx-padding: 3px 5px;
+    -fx-background-color: #bac8dc;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-border-color: #6a85b6;
+    -fx-border-width: 1px;
+}
+
+.hyperlink:hover {
+    -fx-background-color: #6a85b6;
+    -fx-text-fill: white;
+}
+
+.combo-box:disabled {
+    -fx-opacity: 1.0;
+}
+
+.combo-box:disabled .list-cell {
+    -fx-opacity: 1.0;
+    -fx-background-color: #616ff2;
+}
+
+.combo-box:disabled .arrow-button {
+    -fx-background-color: #616ff2;
+}
+
