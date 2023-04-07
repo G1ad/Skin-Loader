@@ -1,2 +1,2 @@
-# Skin-Loader
-A tool for loading a selected skin in the app.
+# Skin Loader
+A tool for visualizing a specific skin on web or the ability to download directly on a specifi folder in your PC.
